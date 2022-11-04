@@ -51,6 +51,9 @@ header div img{
     display: flex;
     align-items: center;
 }
+.logo img {
+    padding-left: 12px;
+}
 header div {
 display: flex;
 align-items: center;
@@ -80,8 +83,7 @@ header div input{
     height: 70vh;
 }
 .con img{
-    width: 30vw;
-     height: 40vh;
+     height: 400px;
 
    }
 .card{
