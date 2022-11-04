@@ -1,4 +1,18 @@
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1250px) and (min-width:501px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        height: 20vh;
+    }
+    header div ul li{
+        padding: 10px;
+        }
+}
+@media screen and (max-width:500px){
+
+    .con img{
+        height: 200px;
+    }
     header{
         flex-direction: column;
         justify-content: center;
