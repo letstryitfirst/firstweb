@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Mulish:wght@200&family=Quicksand:wght@300;400&display=swap');
+:root{
+    --main-bg-color:rgb(41, 9, 246);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.con{
+   min-height: calc(105vh - 83px - 15vh);
+}
+footer{
+    height: 15vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+header div ul li{
+    list-style-type:none;
+    padding: 23px;
+    cursor: pointer;
+}
+header div ul li:hover{
+    font-size: large;
+    color: black;
+}
+header div ul{
+    display: flex;
+    width: 17vw;
+    height: 5vh;
+    align-items: center;
+    color:aliceblue;
+}
+header{
+    background-color: var(--main-bg-color);
+    display: flex;
+    position: fixed;
+    width: 1000vw;
+    height: fit-content;
+    min-height: 15vh;
+
+}
+main{
+    overflow: hidden;
+}
+header div img{
+    width: 100px;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+header div {
+display: flex;
+align-items: center;
+background-color: var(--main-bg-color);
+}
+header div input{
+    width: 40vw;
+    height: 6vh;
+    padding-left: 120vw;
+}
+.search input{
+    border-radius: 5px;
+    margin: 0 56px 0 56px;
+    padding: 0 0 0 22px;
+}
+.btn{
+    padding: 7px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'lato',sans-serif;
+    font-weight: bold;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.con img{
+    width: 30vw;
+     height: 40vh;
+
+   }
+.card{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    height: 32vh;
+
+}
+.card1{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    align-items: center;
+}
+.top{
+    padding-left: 2vw;
+    padding-right: 4vh;
+}
+.top1{
+    padding-left: 1vw;
+    padding-right: 4vh;
+}
+.row1{
+    display: flex;
+}
+.P1{
+    padding: 30px;
+}
+.row2{
+    display: flex;
+}
+.row3{
+    display: flex;
+}
+.name{
+    padding-left: 4vw;
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width:1250px) {
+    header{
+        flex-direction: column;
+        justify-content: center;
+        height: 20vh;
+    }
+    header div ul li{
+        padding: 10px;
+        }
+}
